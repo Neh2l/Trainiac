@@ -373,7 +373,7 @@ nav .second input {
 /* ===== TEAM ===== */
 .team {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin-top: 1em;
     background-image: url(../images/953fac1171d10c9884f64125a8e582ff.jpg);
     background-repeat: no-repeat;
