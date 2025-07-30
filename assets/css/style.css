@@ -423,7 +423,7 @@ nav .second input {
 }
 
 .coach1 h3 {
-    color: var(--text-color);
+    color: var(--text-colorg);
     margin-top: 0.5em;
 }
 
@@ -475,7 +475,7 @@ footer {
     }
 }
 
-/* ✅ Media Query for responsiveness */
+/* 
 @media (max-width: 768px) {
     footer {
         flex-direction: column;
@@ -494,7 +494,7 @@ footer {
     footer h1 {
         font-size: 1.5rem;
     }
-}
+} */
 
 
 /* ===== RESPONSIVE ===== */
@@ -646,5 +646,25 @@ footer {
     .mid img {
         left: 0;
         position: static;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        gap: 2em;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer .first,
+    footer .second,
+    footer .third {
+        width: 90%;
+        align-items: center;
+    }
+
+    footer h1 {
+        font-size: 1.5rem;
     }
 }
