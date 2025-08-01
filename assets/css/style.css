@@ -430,7 +430,7 @@ nav .second input {
 
 /*====FOOTER=====*/
 footer {
-    background-color: black;
+    /* background-color: black; */
     width: 100%;
     height: auto;
     display: flex;
